@@ -4,6 +4,10 @@ body {
   height: 100%;
 }
 
+i {
+  color: magenta;
+}
+
 .hidden {
   display: none;
 }
@@ -12,6 +16,7 @@ body {
   position: absolute;
   top: 1%;
   right: 1%;
+  z-index: 666;
 }
 
 .logo {
